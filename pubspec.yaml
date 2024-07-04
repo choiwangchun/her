@@ -34,6 +34,8 @@ dependencies:
   http: ^1.2.1
   langchain: ^0.4.2
   langchain_openai: ^0.4.1
+  flutter_localization: ^0.2.0
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -61,6 +63,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/config/.env
+    - assets/persona/persona.md
 
   # To add assets to your application, add an assets section, like this:
   # assets:
