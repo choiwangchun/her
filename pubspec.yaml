@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_dotenv: ^5.1.0
+  http: ^1.2.1
+  langchain: ^0.4.2
+  langchain_openai: ^0.4.1
 
 
   # The following adds the Cupertino Icons font to your application.
